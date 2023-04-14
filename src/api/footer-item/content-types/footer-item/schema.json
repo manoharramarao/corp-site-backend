@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_items",
+  "info": {
+    "singularName": "footer-item",
+    "pluralName": "footer-items",
+    "displayName": "footerItem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "heading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "items": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "json"
+    }
+  }
+}
